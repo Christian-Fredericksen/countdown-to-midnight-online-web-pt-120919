@@ -5,7 +5,7 @@ def countdown(countdown_output)
   
     puts "#{countdown_output} SECOND(S)!"
     countdown_output -= 1
-    sleep 1
+    Benchmark.measure (1)
   end
     
    "HAPPY NEW YEAR!"
