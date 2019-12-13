@@ -1,5 +1,5 @@
 #write your code here
-time = 9
+time = 11
 def countdown(time)
   while time > 1
   time -= 1
