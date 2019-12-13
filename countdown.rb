@@ -10,5 +10,5 @@ def countdown(countdown_output)
 end
 
 def countdown_with_sleep
-  Benchmark.measure
+  Benchmark.measure{countdown_with_sleep(5)}
 end
