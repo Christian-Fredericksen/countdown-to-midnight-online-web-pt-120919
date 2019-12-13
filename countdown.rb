@@ -9,6 +9,6 @@ def countdown(countdown_output)
    "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(5)
+def countdown_with_sleep
   Benchmark.measure
 end
